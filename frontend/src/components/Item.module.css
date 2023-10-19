@@ -1,0 +1,15 @@
+.itemcontainer {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  padding-left: 80px;
+  padding-right: 90px;
+  margin-left: 10px;
+  margin-right: 20px;
+  max-width: 3vh;
+  overflow: hidden;
+}

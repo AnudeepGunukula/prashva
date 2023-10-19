@@ -1,0 +1,30 @@
+h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.docketlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold p {
+  font-weight: bold;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+.docketlist button {
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: green;
+}
+
+div {
+  background-color: rgb(55, 61, 75);
+}
