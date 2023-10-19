@@ -1,0 +1,52 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build/ and dist/ directories (output of your bundler)
+build/
+dist/
+*.log
+
+# Ignore environment files (.env or .env.local)
+.env
+.env.local
+
+# Ignore any build files and folders
+build/
+public/
+
+# Ignore logs and other runtime data
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore VSCode specific files
+.vscode/
+
+
+# Ignore database file (SQLite)
+db.sqlite3
+
+# Ignore .pyc files (Python compiled files)
+__pycache__/
+
+# Ignore the virtual environment directory
+venv/
+venv3/
+
+# Ignore log files
+*.log
+
+# Ignore local settings (you might want to customize this)
+local_settings.py
+
+# Ignore user uploads or media files (if applicable)
+media/
+
+# Ignore static files (collected with 'collectstatic')
+static/
+
+# Ignore migrations (generated database migration files)
+*/migrations/
+__pycache__
+
